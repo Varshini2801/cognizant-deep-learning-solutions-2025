@@ -1,0 +1,16 @@
+| Operation | Time Complexity | Description                               |
+| --------- | --------------- | ----------------------------------------- |
+| Add       | O(1)            | Appending to end of array                 |
+| Traverse  | O(n)            | Visit all elements                        |
+| Search    | O(n)            | Linear scan by ID                         |
+| Delete    | O(n)            | Find + shift elements after deleted index |
+
+Limitations of Arrays:
+-Fixed size: can't grow beyond declared size.
+-Insert/Delete operations can be expensive (O(n)).
+-Less flexible than dynamic data structures like ArrayList or HashMap.
+
+When to Use Arrays:
+-When the number of employees is small and known in advance.
+-When memory use and access speed matter.
+-When simplicity is more important than flexibility.
