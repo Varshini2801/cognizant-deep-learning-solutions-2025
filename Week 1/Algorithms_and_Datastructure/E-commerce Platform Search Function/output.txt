@@ -1,0 +1,2 @@
+Linear Search: Found at index 2
+Binary Search: Found at index 3
