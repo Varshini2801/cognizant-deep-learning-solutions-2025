@@ -1,0 +1,18 @@
+How Arrays Are Represented in Memory:
+-An array is a collection of elements stored in contiguous memory locations.
+-When an array is created, a block of memory large enough to hold all elements is allocated as a single unit.
+-The base address of the array is the address of the first element, and other elements can be accessed using simple arithmetic
+
+Address of element at index i=Base Address+i×Size of each element
+
+For example, if an integer array starts at address 1000 and each integer is 4 bytes:
+Element at index 0 → address = 1000
+Element at index 1 → address = 1004
+Element at index 2 → address = 1008, and so on.
+
+Advantages of Array Representation:
+-Fast Access (O(1) Time):Any element can be accessed directly using its index, without traversing from the beginning.
+-Efficient Memory Use:Arrays do not have additional pointer overhead like linked lists. All elements are tightly packed in memory.
+-Simple to Implement:Arrays are easy to declare and use for fixed-size collections.
+-Cache-Friendly:Because of contiguous memory allocation, arrays benefit from CPU caching, which improves performance.
+-Best Choice for Static Data:Ideal when the number of elements is known in advance and does not change often.
