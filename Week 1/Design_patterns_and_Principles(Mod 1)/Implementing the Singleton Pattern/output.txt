@@ -1,0 +1,4 @@
+Logger initialized!
+[LOG]: First message
+[LOG]: Second message
+Both loggers are the same instance!
