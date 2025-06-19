@@ -1,0 +1,18 @@
+Employee added: Varshini
+Employee added: Anil
+Employee added: Divya
+
+-- All Employees --
+ID: 1, Name: Varshini, Position: Manager, Salary: ₹70000.0
+ID: 2, Name: Anil, Position: Developer, Salary: ₹55000.0
+ID: 3, Name: Divya, Position: Tester, Salary: ₹45000.0
+
+-- Searching for Employee ID 2 --
+ID: 2, Name: Anil, Position: Developer, Salary: ₹55000.0
+
+-- Deleting Employee ID 3 --
+Employee with ID 3 deleted.
+
+-- All Employees --
+ID: 1, Name: Varshini, Position: Manager, Salary: ₹70000.0
+ID: 2, Name: Anil, Position: Developer, Salary: ₹55000.0
