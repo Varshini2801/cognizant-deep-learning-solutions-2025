@@ -1,0 +1,66 @@
+Bubble Sort
+-Compares adjacent elements and swaps them if they are in the wrong order.
+-Repeats the process until the entire array is sorted.
+
+Time Complexity:
+-Best Case: O(n)
+-Average Case: O(n²)
+-Worst Case: O(n²)
+
+Space Complexity: O(1)
+
+Stability: Stable
+
+Use Case: Suitable for very small or mostly sorted datasets; primarily used for teaching.
+
+Insertion Sort
+-Builds the final sorted array one item at a time.
+-Takes each element and inserts it into its correct position in the sorted part of the array.
+
+Time Complexity:
+-Best Case: O(n)
+-Average Case: O(n²)
+-Worst Case: O(n²)
+
+Space Complexity: O(1)
+
+Stability: Stable
+
+Use Case: Efficient for small or nearly sorted arrays.
+
+Quick Sort
+-Uses a divide-and-conquer approach by selecting a pivot element.
+-Partitions the array into two parts: elements less than the pivot and elements greater than the pivot.
+-Recursively applies the same process to the subarrays.
+
+Time Complexity:
+-Best Case: O(n log n)
+-Average Case: O(n log n)
+-Worst Case: O(n²)
+
+Space Complexity: O(log n) due to recursion
+
+Stability: Not stable
+
+Use Case: Preferred for large datasets due to its speed and efficiency.
+
+Merge Sort
+-Also a divide-and-conquer algorithm.
+-Splits the array into halves, recursively sorts each half, and then merges the sorted halves.
+
+Time Complexity:
+-Best Case: O(n log n)
+-Average Case: O(n log n)
+-Worst Case: O(n log n)
+
+Space Complexity: O(n)
+
+Stability: Stable
+
+Use Case: Ideal for large datasets and scenarios where stability is required.
+
+Why Quick Sort is Generally Preferred Over Bubble Sort
+-Quick Sort has an average-case time complexity of O(n log n), which is significantly faster than Bubble Sort’s O(n²) for large inputs.
+-Quick Sort performs fewer comparisons and swaps in practice, making it more efficient.
+-Bubble Sort is simple but inefficient and not suitable for real-world applications involving large datasets.
+-Quick Sort is widely used in standard library implementations of sorting due to its performance and low overhead.
