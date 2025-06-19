@@ -1,0 +1,18 @@
+Task added: Design UI
+Task added: Write Backend
+Task added: Test Features
+
+-- All Tasks --
+Task ID: 1, Name: Design UI, Status: Pending
+Task ID: 2, Name: Write Backend, Status: In Progress
+Task ID: 3, Name: Test Features, Status: Not Started
+
+-- Searching for Task ID 2 --
+Task ID: 2, Name: Write Backend, Status: In Progress
+
+-- Deleting Task ID 1 --
+Task with ID 1 deleted.
+
+-- All Tasks --
+Task ID: 2, Name: Write Backend, Status: In Progress
+Task ID: 3, Name: Test Features, Status: Not Started
