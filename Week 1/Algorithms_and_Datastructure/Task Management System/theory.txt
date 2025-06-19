@@ -1,0 +1,44 @@
+1. Singly Linked List
+-Structure:
+Each node contains two parts:
+Data
+Next pointer (reference to the next node)
+
+Example structure:
+[Data | Next] → [Data | Next] → [Data | Next] → null
+
+Characteristics:
+-Supports one-way traversal (from head to tail).
+-The last node points to null, marking the end of the list.
+-Insertion and deletion at the beginning of the list are efficient (O(1)).
+
+Advantages:
+-Simple and uses less memory (only one pointer per node).
+-Useful for implementing stacks, queues, and simple lists.
+
+Limitations:
+-No backward traversal.
+-Deleting a node requires access to the previous node
+
+2. Doubly Linked List
+-Structure:
+Each node contains three parts:
+Data
+Prev pointer (reference to the previous node)
+Next pointer (reference to the next node)
+
+Example structure:
+null ← [Prev | Data | Next] ↔ [Prev | Data | Next] ↔ [Prev | Data | Next] → null
+
+Characteristics:
+-Supports traversal in both directions (forward and backward).
+-Each node links to both its previous and next nodes.
+-The head node’s prev pointer and the tail node’s next pointer are null.
+
+Advantages:
+-Easier and more efficient insertion and deletion at both ends or in the middle of the list.
+-Supports bidirectional navigation, useful in applications like browser history, music playlists, etc.
+
+Limitations:
+-Requires more memory due to the extra pointer (prev).
+-Slightly more complex to implement compared to singly linked lists.
