@@ -1,0 +1,11 @@
+=== Sorted by Bubble Sort ===
+Order ID: 4, Customer: Raj, Total: ₹1500.0
+Order ID: 2, Customer: Anil, Total: ₹3200.5
+Order ID: 1, Customer: Varshini, Total: ₹4500.0
+Order ID: 3, Customer: Divya, Total: ₹8999.99
+
+=== Sorted by Quick Sort ===
+Order ID: 4, Customer: Raj, Total: ₹1500.0
+Order ID: 2, Customer: Anil, Total: ₹3200.5
+Order ID: 1, Customer: Varshini, Total: ₹4500.0
+Order ID: 3, Customer: Divya, Total: ₹8999.99
