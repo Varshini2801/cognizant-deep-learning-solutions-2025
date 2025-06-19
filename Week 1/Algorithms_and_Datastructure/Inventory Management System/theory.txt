@@ -1,0 +1,14 @@
+Why Data Structures and Algorithms Are Essential:
+-Efficient handling of large inventories requires:
+-Quick retrieval of product information.
+-Fast updates when products are sold, added, or restocked.
+-Organized storage to avoid duplication and ensure integrity.
+
+Without appropriate data structures:
+-Operations become slower as the inventory grows.
+-Searching and updating records may require full scans, resulting in poor performance.
+
+Suitable Data Structures:
+-ArrayList: Simple, ordered list. Easy to implement but slower for searching (O(n)).
+-HashMap: Key-value mapping. Fast lookup, insert, update, delete (average O(1)) using product ID as the key.
+-TreeMap: Sorted map. Slower than HashMap (O(log n)) but maintains order if needed.
