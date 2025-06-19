@@ -1,0 +1,11 @@
+Big O Notation:
+-Big O describes the upper bound of time or space an algorithm takes as input size grows.
+-It helps estimate performance, especially for large datasets.
+
+Search Time Complexities:
+Search Type	   Best Case	Average Case	Worst Case
+Linear Search	    O(1)	      O(n)	       O(n)
+Binary Search   	O(1)	      O(log n)	   O(log n)
+
+-Linear Search: Scans every element
+-Binary Search: Works only on sorted data and divides search space in half each time
