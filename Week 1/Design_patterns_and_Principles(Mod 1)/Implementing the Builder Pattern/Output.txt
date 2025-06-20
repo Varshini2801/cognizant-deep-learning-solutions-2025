@@ -1,0 +1,13 @@
+Basic Computer Configuration:
+CPU: Intel i3
+RAM: 8GB
+Storage: Not specified
+Graphics Card: Not specified
+Operating System: Not specified
+
+Gaming Computer Configuration:
+CPU: Intel i9
+RAM: 32GB
+Storage: 1TB SSD
+Graphics Card: NVIDIA RTX 4080
+Operating System: Windows 11
