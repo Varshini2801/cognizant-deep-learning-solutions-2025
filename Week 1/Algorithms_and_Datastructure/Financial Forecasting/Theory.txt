@@ -1,0 +1,14 @@
+What is Recursion?
+Recursion is a method where a function calls itself to solve smaller subproblems of a larger problem.
+Every recursive function must have:
+-Base case – when to stop recursion.
+-Recursive case – the function calling itself with a smaller input.
+
+Why Use Recursion?
+It simplifies problems that can be broken down into similar subproblems.
+Useful in problems like factorial, Fibonacci sequence, tree traversal, etc.
+
+Time Complexity:
+Each recursive call reduces the number of periods by 1.
+Time Complexity: O(n), where n is the number of periods.
+Space Complexity: O(n) for the recursion stack.
