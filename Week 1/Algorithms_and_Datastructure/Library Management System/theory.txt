@@ -1,0 +1,48 @@
+Linear Search
+Definition:
+Linear search is a simple search algorithm that checks each element in a list sequentially until the desired element is found or the end of the list is reached.
+
+How it works:
+-Start from the first element.
+-Compare each element with the target value.
+-If a match is found, return the index or element.
+-If not found, continue until the end of the list.
+
+Example:
+Searching for 7 in [2, 4, 7, 10, 13]:
+Check 2 → no match
+Check 4 → no match
+Check 7 → match found 
+
+Time Complexity:
+Best Case: O(1) — when the element is at the beginning.
+Worst Case: O(n) — when the element is at the end or not present.
+Average Case: O(n)
+
+Use Cases:
+Small or unsorted datasets.
+When sorting is not possible or required.
+
+Binary Search
+Definition:
+Binary search is a fast algorithm used to find an element in a sorted list by repeatedly dividing the search interval in half.
+
+How it works:
+-Start with the middle element.
+-If it matches the target, return it.
+-If the target is smaller, repeat the search on the left half.
+-If the target is larger, search in the right half.
+-Repeat until the element is found or the interval is empty.
+
+Example:
+Searching for 7 in [2, 4, 7, 10, 13]:
+Middle = 7 → match found 
+
+Time Complexity:
+Best Case: O(1) — if the middle element is the target.
+Worst Case: O(log n) — logarithmic time.
+Average Case: O(log n)
+
+Use Cases:
+Large, sorted datasets.
+When search speed is important.
