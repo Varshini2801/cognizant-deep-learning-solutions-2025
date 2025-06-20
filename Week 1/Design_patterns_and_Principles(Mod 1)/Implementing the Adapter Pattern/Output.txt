@@ -1,0 +1,2 @@
+Payment of ₹2500.0 processed via PayPal.
+Payment of ₹4300.0 processed via Stripe.
