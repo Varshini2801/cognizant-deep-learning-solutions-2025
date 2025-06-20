@@ -1,0 +1,5 @@
+-- Linear Search: 'Atomic Habits' --
+Book ID: 2, Title: Atomic Habits, Author: James Clear
+
+-- Binary Search: 'Zero to One' --
+Book ID: 4, Title: Zero to One, Author: Peter Thiel
