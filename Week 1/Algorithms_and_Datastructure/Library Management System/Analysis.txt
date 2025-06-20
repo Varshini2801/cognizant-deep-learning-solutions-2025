@@ -1,0 +1,12 @@
+| Algorithm     | Time Complexity (Best) | Time Complexity (Worst) | Requires Sorted Data? |
+| ------------- | ---------------------- | ----------------------- | --------------------- |
+| Linear Search | O(1)                   | O(n)                    | No                    |
+| Binary Search | O(1)                   | O(log n)                | Yes                   |
+
+Use Linear Search for:
+-Small datasets
+-Unsorted or dynamic data
+
+Use Binary Search for:
+-Large datasets
+-Sorted and static data
