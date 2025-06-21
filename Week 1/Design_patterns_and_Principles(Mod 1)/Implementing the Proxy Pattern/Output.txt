@@ -1,0 +1,7 @@
+Loading image from remote server: cat.jpg
+Displaying: cat.jpg
+
+Displaying: cat.jpg
+
+Loading image from remote server: dog.jpg
+Displaying: dog.jpg
