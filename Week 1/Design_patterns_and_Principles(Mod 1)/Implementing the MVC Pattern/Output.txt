@@ -1,0 +1,10 @@
+Student Details:
+Name: Alice
+ID: 101
+Grade: A
+
+After Update:
+Student Details:
+Name: Bob
+ID: 101
+Grade: B+
