@@ -1,0 +1,6 @@
+MobileApp A1: Stock TCS updated to ₹3580.75
+MobileApp B2: Stock TCS updated to ₹3580.75
+WebApp User user123: Stock TCS updated to ₹3580.75
+
+MobileApp A1: Stock INFY updated to ₹1456.2
+WebApp User user123: Stock INFY updated to ₹1456.2
