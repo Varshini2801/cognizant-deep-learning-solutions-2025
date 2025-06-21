@@ -1,0 +1,4 @@
+Pressing ON button:
+The light is ON.
+Pressing OFF button:
+The light is OFF.
