@@ -1,0 +1,11 @@
+Notification via Email:
+Sending Email: Server down
+
+Notification via Email + SMS:
+Sending Email: High CPU usage
+Sending SMS: High CPU usage
+
+Notification via Email + SMS + Slack:
+Sending Email: Security alert
+Sending SMS: Security alert
+Sending Slack message: Security alert
