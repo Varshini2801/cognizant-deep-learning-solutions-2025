@@ -1,0 +1,4 @@
+Monthly interest processed for all savings accounts.
+Bonus applied to employees in department 101
+Funds transferred from account 1001 to 1002
+Error: ORA-20001: Insufficient balance in source account.
