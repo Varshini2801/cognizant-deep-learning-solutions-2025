@@ -1,0 +1,6 @@
+Age: 34
+
+EMI: 1001.87
+
+Sufficient balance available.
+Insufficient balance or account not found.
