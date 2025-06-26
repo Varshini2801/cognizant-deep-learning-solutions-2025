@@ -1,0 +1,20 @@
+-- Add a customer
+EXEC CustomerManagement.AddCustomer(101, 'Alice', TO_DATE('1995-05-10', 'YYYY-MM-DD'), 5000);
+
+-- Update customer
+EXEC CustomerManagement.UpdateCustomer(101, 'Alice Smith', 7000);
+
+-- Get balance
+SELECT CustomerManagement.GetCustomerBalance(101) AS Balance FROM dual;
+
+-- Hire employee
+EXEC EmployeeManagement.HireEmployee(201, 'Bob', 'Manager', 60000, 'HR');
+
+-- Annual salary
+SELECT EmployeeManagement.GetAnnualSalary(201) AS AnnualSalary FROM dual;
+
+-- Open account
+EXEC AccountOperations.OpenAccount(301, 101, 'Savings', 5000);
+
+-- Total balance
+SELECT AccountOperations.GetTotalBalance(101) AS TotalBalance FROM dual;
