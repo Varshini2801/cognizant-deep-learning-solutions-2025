@@ -1,0 +1,4 @@
+Test Results:
+✓ testVoidMethodThrowsException passed
+    - log("ERROR") threw RuntimeException("Logging failed")
+    - Interaction verified
