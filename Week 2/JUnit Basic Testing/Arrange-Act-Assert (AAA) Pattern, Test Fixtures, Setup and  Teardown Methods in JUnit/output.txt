@@ -1,0 +1,8 @@
+Setup complete
+Teardown complete
+Setup complete
+Teardown complete
+
+Test Results:
+✓ testAddition passed
+✓ testSubtraction passed
