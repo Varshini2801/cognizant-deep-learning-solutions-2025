@@ -1,0 +1,8 @@
+Customer ID: 101, Transaction ID: 5001, Type: Deposit, Amount: 1000, Date: 01-JUN-2025
+Customer ID: 102, Transaction ID: 5002, Type: Withdrawal, Amount: 500, Date: 03-JUN-2025
+
+Annual fee deducted from Account ID: 2001
+Annual fee deducted from Account ID: 2002
+
+Interest rate updated for Loan ID: 3001
+Interest rate updated for Loan ID: 3004
