@@ -1,0 +1,8 @@
+Funds transferred successfully.
+Error: Insufficient funds in account 1002
+
+Salary updated for employee ID 2001
+Error: Employee ID 9999 not found.
+
+Customer added successfully.
+Error: Customer with ID 101 already exists.
