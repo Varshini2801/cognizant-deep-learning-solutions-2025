@@ -1,0 +1,7 @@
+Running AssertionsTest
+All assertions passed:
+✓ assertEquals
+✓ assertTrue
+✓ assertFalse
+✓ assertNull
+✓ assertNotNull
