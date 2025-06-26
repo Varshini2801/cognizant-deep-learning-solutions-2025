@@ -1,0 +1,4 @@
+ Discount applied for customers above 60.
+ VIP status updated for customers with balance > 10000.
+ Reminder: Dear John Doe, your loan (ID: 101) is due on 10-Jul-2025
+ Reminder: Dear Alice, your loan (ID: 102) is due on 25-Jun-2025
