@@ -1,0 +1,5 @@
+Test Results:
+✓ testMultipleReturns passed
+    - 1st call: Pending
+    - 2nd call: Processing
+    - 3rd call: Completed
