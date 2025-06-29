@@ -1,0 +1,3 @@
+12:00:00.123 [main] INFO  ParameterizedLoggingExample - User varshini has attempted to login 3 times
+12:00:00.124 [main] WARN  ParameterizedLoggingExample - User varshini is close to being locked out
+12:00:00.125 [main] ERROR ParameterizedLoggingExample - Login failed for user varshini after 3 attempts
