@@ -1,0 +1,4 @@
+12:01:45.123 [main] DEBUG AppenderLoggingExample - This is a DEBUG message
+12:01:45.124 [main] INFO  AppenderLoggingExample - This is an INFO message
+12:01:45.125 [main] WARN  AppenderLoggingExample - This is a WARN message
+12:01:45.126 [main] ERROR AppenderLoggingExample - This is an ERROR message
