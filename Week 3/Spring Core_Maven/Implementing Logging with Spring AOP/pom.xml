@@ -1,0 +1,15 @@
+<dependencies>
+    <!-- Spring Context (already added earlier) -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>5.3.32</version>
+    </dependency>
+
+    <!-- Spring AOP -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-aspects</artifactId>
+        <version>5.3.32</version>
+    </dependency>
+</dependencies>
