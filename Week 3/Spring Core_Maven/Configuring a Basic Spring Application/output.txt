@@ -1,0 +1,2 @@
+Adding book: The Great Gatsby
+Book 'The Great Gatsby' saved to the repository.
