@@ -1,0 +1,53 @@
+1. React Components Explained
+React components are building blocks of a React application. They return JSX that renders UI.
+
+2. Components vs JavaScript Functions
+Aspect	 JS Function	React Component
+Purpose	 Perform a task	Return JSX for UI
+Syntax	 function add()	function MyComponent()
+Return   Type	Value	JSX
+Usage in JSX	❌ Not allowed	✅ Yes
+
+ 3. Types of Components in React
+Functional Components – Simpler, use hooks (useState, useEffect)
+
+Class Components – Older style, uses lifecycle methods, this keyword
+
+4. Class Component
+A class component:
+
+Extends React.Component
+
+Has a render() method
+
+Can have a constructor (optional)
+
+
+import React, { Component } from 'react';
+
+class Home extends Component {
+  render() {
+    return <h2>Welcome to the Home page</h2>;
+  }
+}
+
+5. Function Component
+A simpler way to write components using plain functions.
+
+
+function Home() {
+  return <h2>Welcome to the Home page</h2>;
+}
+
+6. Component Constructor
+Used in class components to initialize state and bind methods.
+
+
+constructor(props) {
+  super(props);
+  this.state = {};
+}
+
+7. render() Function
+Mandatory in class components, returns the UI (JSX).
+
