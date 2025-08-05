@@ -1,0 +1,108 @@
+
+Git Hands-on Lab Guide
+=======================
+
+Objectives:
+-----------
+You will learn:
+- Basic Git commands (`git init`, `git status`, `git add`, `git commit`, `git push`, `git pull`)
+- Git configuration
+- Integrating Notepad++ as the default Git editor
+- Adding a file to a Git repository and pushing to GitLab
+
+Prerequisites:
+--------------
+- Install Git Bash from: https://git-scm.com
+- Install Notepad++ from: https://notepad-plus-plus.org/downloads/
+- Create a GitLab account (Don’t use Cognizant credentials)
+
+Estimated Time: 30 minutes
+
+Step 1: Setup Git Configuration
+-------------------------------
+1. Check Git Installation
+   git --version
+
+2. Configure user info
+   git config --global user.name "Your Name"
+   git config --global user.email "youremail@example.com"
+
+3. Verify Configuration
+   git config --list
+
+Step 2: Set Notepad++ as Default Git Editor
+-------------------------------------------
+1. Check if Notepad++ opens
+   notepad++
+
+   If not, add to PATH in environment variables:
+   Path: C:\Program Files\Notepad++\
+
+2. Restart Git Bash and try:
+   notepad++
+
+3. Create alias (optional):
+   alias np='"/c/Program Files/Notepad++/notepad++.exe"'
+
+4. Set Notepad++ as Git editor:
+   git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+5. Verify editor:
+   git config --global -e
+
+Step 3: Create Repository and Add Files
+---------------------------------------
+1. Create directory and initialize Git
+   mkdir GitDemo
+   cd GitDemo
+   git init
+
+2. Verify .git folder
+   ls -a
+
+3. Create a file
+   echo "Welcome to Git hands-on lab!" > welcome.txt
+
+4. Verify file
+   ls
+
+5. View file content
+   cat welcome.txt
+
+6. Check Git status
+   git status
+
+7. Stage the file
+   git add welcome.txt
+
+8. Commit changes
+   git commit
+   (Write commit message in Notepad++)
+
+9. Check status again
+   git status
+
+Step 4: Push to GitLab
+----------------------
+1. Create a GitLab repo named "GitDemo"
+
+2. Add remote URL
+   git remote add origin https://gitlab.com/yourusername/GitDemo.git
+
+3. Pull from remote (if needed)
+   git pull origin master --allow-unrelated-histories
+
+4. Push local changes
+   git push -u origin master
+
+You're Done!
+------------
+Summary of Git Commands:
+- git init
+- git config
+- git add
+- git commit
+- git status
+- git remote add
+- git push
+- git pull
