@@ -1,0 +1,70 @@
+
+Git Ignore Hands-on Lab Guide
+=============================
+
+Objectives:
+-----------
+You will learn:
+- What `.gitignore` is
+- How to ignore unwanted files and folders using `.gitignore`
+
+Prerequisites:
+--------------
+- Git environment setup
+- Notepad++ integrated as Git default editor
+- A local Git repository and a corresponding remote GitLab repository
+
+Estimated Time: 20 minutes
+
+Instructions:
+-------------
+
+1. Open Git Bash and navigate to your existing Git repository, e.g.:
+   cd GitDemo
+
+2. Create a `.log` file and a `log` directory:
+   touch debug.log
+   mkdir log
+   echo "Log data" > log/app.log
+
+3. Check current status of files:
+   git status
+
+   You will see `debug.log` and files inside `log/` as untracked.
+
+4. Create or edit the `.gitignore` file to ignore `.log` files and `log/` folder:
+   notepad++ .gitignore
+
+   Add the following lines:
+   ```
+   *.log
+   log/
+   ```
+
+5. Save and close `.gitignore`.
+
+6. Check the status again:
+   git status
+
+   Now, `debug.log` and `log/` should not be listed under untracked files.
+
+7. Stage and commit `.gitignore`:
+   git add .gitignore
+   git commit -m "Added .gitignore to exclude .log files and log folder"
+
+8. Push to remote repository:
+   git push origin master
+
+You're Done!
+------------
+
+Summary of Git Ignore Setup:
+- Create unwanted files/folders for testing: `*.log`, `log/`
+- Add ignore rules in `.gitignore`
+- Stage and commit only `.gitignore`
+
+Helpful Tips:
+-------------
+- Use `*.ext` to ignore all files with `.ext` extension
+- Use `folder_name/` to ignore an entire folder
+- Use `/filename` to ignore a file only in the root directory
