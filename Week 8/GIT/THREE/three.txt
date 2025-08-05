@@ -1,0 +1,90 @@
+
+Git Branching and Merging Hands-on Lab Guide
+============================================
+
+Objectives:
+-----------
+You will learn:
+- Git branching and merging concepts
+- How to create a branch request in GitLab
+- How to create a merge request in GitLab
+
+Prerequisites:
+--------------
+- Git environment setup
+- P4Merge tool installed and integrated (for Windows)
+- Existing Git repository (local and remote)
+
+Estimated Time: 30 minutes
+
+Instructions:
+-------------
+
+Branching:
+----------
+1. Create a new branch:
+   git branch GitNewBranch
+
+2. List all branches:
+   git branch -a
+
+   (The `*` indicates the current active branch)
+
+3. Switch to the new branch:
+   git checkout GitNewBranch
+
+4. Add files and make changes:
+   echo "Branch changes" > branchfile.txt
+
+5. Stage and commit the changes:
+   git add branchfile.txt
+   git commit -m "Added file in GitNewBranch"
+
+6. Check the status:
+   git status
+
+Merging:
+--------
+1. Switch to master branch:
+   git checkout master
+
+2. See the differences between master and GitNewBranch (CLI):
+   git diff GitNewBranch
+
+3. See visual diff using P4Merge:
+   git mergetool
+
+   (Ensure P4Merge is configured as mergetool)
+
+4. Merge the branch into master:
+   git merge GitNewBranch
+
+5. View the log graph:
+   git log --oneline --graph --decorate
+
+6. Delete the merged branch:
+   git branch -d GitNewBranch
+
+7. Check final status:
+   git status
+
+Additional (GitLab Web Interface):
+----------------------------------
+1. Push your branch to GitLab:
+   git push origin GitNewBranch
+
+2. On GitLab, go to your repository → create a Merge Request for `GitNewBranch` into `master`
+
+3. Review and accept the Merge Request to complete merging
+
+You're Done!
+------------
+
+Summary of Key Commands:
+- git branch BRANCH_NAME
+- git checkout BRANCH_NAME
+- git diff SOURCE TARGET
+- git mergetool
+- git merge BRANCH_NAME
+- git branch -d BRANCH_NAME
+- git log --oneline --graph --decorate
