@@ -1,0 +1,40 @@
+Git Cleanup and Push Back Hands-on Lab Guide
+=============================================
+
+Objectives:
+-----------
+You will learn how to clean up your working environment and push pending changes back to the remote Git repository.
+
+Prerequisites:
+--------------
+- Hands-on ID: "Git-T03-HOL_002"
+- A configured Git environment with an established remote repository (e.g., GitLab or GitHub)
+
+Estimated Time: 10 minutes
+
+Instructions:
+-------------
+1. Verify that the master branch is in a clean state:
+   git checkout master
+   git status
+
+2. List all available branches (local and remote):
+   git branch -a
+
+3. Pull the latest changes from the remote repository into the master branch:
+   git pull origin master
+
+4. Push your pending changes (commits from "Git-T03-HOL_002") to the remote repository:
+   git push origin master
+
+5. Verify that the changes are reflected in the remote repository:
+   - Log in to your remote repository’s web interface (GitLab, GitHub, etc.)
+   - Navigate to your repository and check the latest commit history
+
+You're Done!
+------------
+Summary of Key Commands:
+- git status
+- git branch -a
+- git pull origin master
+- git push origin master
