@@ -1,0 +1,103 @@
+
+Git Merge Conflict Resolution Hands-on Lab Guide
+================================================
+
+Objectives:
+-----------
+You will learn:
+- How to resolve merge conflicts in Git when multiple users modify the same file in different branches
+
+Prerequisites:
+--------------
+- Hands-on ID: Git-T03-HOL_001
+- Git environment setup
+- P4Merge tool integrated for visual merge
+
+Estimated Time: 30 minutes
+
+Instructions:
+-------------
+
+1. Verify master branch is clean:
+   git checkout master
+   git status
+
+2. Create a new branch:
+   git branch GitWork
+   git checkout GitWork
+
+3. Add file `hello.xml` with content:
+   echo "<message>Hello from GitWork branch</message>" > hello.xml
+
+4. Stage and commit:
+   git add hello.xml
+   git commit -m "Added hello.xml in GitWork branch"
+
+5. Switch to master:
+   git checkout master
+
+6. Add file `hello.xml` with different content:
+   echo "<message>Different message in master</message>" > hello.xml
+
+7. Stage and commit:
+   git add hello.xml
+   git commit -m "Added hello.xml in master with different content"
+
+8. Observe the log:
+   git log --oneline --graph --decorate --all
+
+9. Check differences using Git diff:
+   git diff GitWork
+
+10. View differences using P4Merge:
+    git mergetool
+
+11. Attempt merge from GitWork to master:
+    git merge GitWork
+
+    (This will cause a merge conflict in `hello.xml`)
+
+12. Observe Git markup inside `hello.xml`:
+    <<<<<<< HEAD
+    Content from master
+    =======
+    Content from GitWork
+    >>>>>>> GitWork
+
+13. Use 3-way merge tool (P4Merge):
+    git mergetool
+
+14. After resolving the conflict, stage and commit the merged result:
+    git add hello.xml
+    git commit -m "Resolved conflict in hello.xml and merged GitWork into master"
+
+15. Check status and ignore backup files:
+    git status
+    echo "*.*~" >> .gitignore
+
+16. Stage and commit `.gitignore`:
+    git add .gitignore
+    git commit -m "Added backup file pattern to .gitignore"
+
+17. List all branches:
+    git branch
+
+18. Delete the merged branch:
+    git branch -d GitWork
+
+19. View final log:
+    git log --oneline --graph --decorate
+
+You're Done!
+------------
+
+Summary of Key Commands:
+- git checkout BRANCH
+- git branch BRANCH_NAME
+- git add FILE
+- git commit -m "message"
+- git diff
+- git mergetool
+- git merge BRANCH_NAME
+- git log --oneline --graph --decorate --all
+- git branch -d BRANCH_NAME
